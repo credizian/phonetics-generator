@@ -128,7 +128,7 @@ def fallback_syllables(name: str, lang: str) -> str:
 
 
 # Streamlit UI
-st.title("NameDrop‐Style Phonetic Speller")
+st.title("Name to Phonetic Spelling")
 st.write("Type a name, choose a language, and see a NameCoach-style output.")
 
 name_input = st.text_input("Enter a name:")
